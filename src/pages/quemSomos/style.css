@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrap {
+  background-image: linear-gradient(to right, #2c5364, #0f2027, #203a43);
+  width: 65%;
+  margin: auto auto;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.box {
+  width: 49%;
+}
+
+.botao {
+  margin: 0.5rem;
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  color: #fff;
+  width: 5rem;
+}
+
+#foto1 {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.paragrafo {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.cursos {
+  background-image: url("https://i.pinimg.com/564x/7e/a4/dd/7ea4dd97dc27c3d295240a977fb8ed07.jpg");
+  height: 70vh;
+}
+
+.caixa1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.caixa1 {
+  width: 30%;
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.texto1 {
+  padding: 0.8rem;
+  color: #fff;
+}
+
+.texto2 {
+  padding-top: 0.8rem;
+  width: 100%;
+  font-family: "Concert One", cursive;
+}
+
+.caixa2 {
+  background-image: linear-gradient(to right, #2c5364, #0f2027, #203a43);
+  width: 30%;
+  height: 20vh;
+  color: #fff;
+  border-right: 1px solid black;
+  text-align: center;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.iconi {
+  width: 40px;
+}
+
+.icon1 {
+  font-size: 60%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.caixa3-4-5-6-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.caixa3,
+.caixa4,
+.caixa5,
+.caixa6,
+.caixa7 {
+  height: 23vh;
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid black;
+}
+
+#sobreMim {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #2c5364, #0f2027, #203a43);
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 1rem;
+}
+
+.user1,
+.user4 {
+  width: 300px;
+  text-align: center;
+}
+
+.user2,
+.user3 {
+  width: 300px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.user {
+  width: 21%;
+  text-align: center;
+}
+
+#foto {
+  width: 100%;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+.bntc {
+  margin: 0.5rem;
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  color: #fff;
+  width: 5rem;
+}
+
+.header-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+
+.fluid-container {
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 900px) {
+  .fluid-container {
+    width: 876px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .caixaN {
+    width: 50%;
+  }
+
+  .caixa2 {
+    width: 100%;
+  }
+
+  .caixa3-4-5-6 {
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .user {
+    width: 44% !important;
+  }
+  .none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .user {
+    width: 90% !important;
+  }
+}
+.cv {
+  width: 2.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+}

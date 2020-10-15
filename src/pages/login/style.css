@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+
+body {
+    display: flex;      
+}
+
+
+
+#container1 {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../../assets/img/papelDeParede.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxx {
+    box-shadow: 1px 1px 5px white;
+    margin-right: 5rem;
+    width: 36rem;
+    height: 80vh;
+
+}
+
+#icones {
+    width: 1.5rem;
+
+}
+
+.inputs {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 7px;
+
+}
+
+
+
+.inputs #login {
+    width: 20rem;
+    height: 2.5rem;
+    margin: .8rem;
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+}
+
+.inputs #senha {
+    width: 20rem;
+    height: 2.5rem;
+    margin: .8rem;
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+}
+
+.icone1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+}
+
+p {
+    margin-top: 1rem;
+    color: white;
+    
+}
+
+.icone2 {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+}
+
+.texto {
+    text-align: center;
+    width: 100%;
+    height: 22vh;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+h2 {
+    padding-top: .5rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+label {
+    color: #ffffff;
+}
+
+#icone-topo {
+    margin-top: 1rem;
+    width: 3.8rem;
+}
+
+.radio {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+   
+}
+
+.radio1 {
+
+    margin:.3rem .8rem 0rem 0rem;
+    justify-content: center;
+    
+
+}
+
+.btn {
+    background-image: linear-gradient(to right, #297e92, #6dc6c4);
+    width: 70%;
+    border-radius: 30px;
+    height: 3rem;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+.linkedin{
+    width: 2.0rem;
+    margin: .5rem;
+}
+
+.git{
+    width: 2.0rem;
+    border-radius:5px ;
+    margin: .5rem;
+}
+
+.btn1 {
+
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .boxx {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');

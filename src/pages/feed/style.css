@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background: linear-gradient(180deg, rgba(41, 126, 146, 1) 0%, rgba(109, 198, 196, 1) 100%);
+
+}
+
+.fluid-container {
+  width: 90%;
+  margin: auto auto;
+}
+
+.container-post {
+  margin-top: 60px;
+  margin: auto auto;
+}
+
+@media only screen and (min-width: 900px) {
+  .fluid-container {
+      width: 876px;
+  }
+}
+
+/* Friends header*/
+.post-header {
+ 
+  width: 100%;
+  padding: 9px 10px 30px 10px;
+  background-color:#e4e6eb;
+  
+}
+
+.post-header p {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.post-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0px;
+  background: white;
+  padding: 10px;
+}
+
+.post-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 49%;
+  margin-bottom: 12px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.user-post-profile-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-post-profile-pic {
+  display: flex;
+  padding-right: 10px;
+}
+
+.user-post-img {
+  padding-top: 10px;
+}
+
+.material-icons{
+  padding-right: 5px;
+}
+
+.user-post-img img {
+  width: 100%;
+  height: 228px;
+}
+
+.user-post-header {
+  display: flex;
+  padding: 10px;
+}
+
+.post-message {
+  padding: 3px 10px;
+  color: #000;
+
+}
+
+.user-post-info span {
+  margin-left: 8px;
+  display: block;
+}
+
+.user-post-info .post-time {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.post-actions span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.post-actions {
+  display: flex;
+  border-top: 1px solid #cacaca;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 14px 10px;
+
+}
+
+/*QUERIES*/
+@media only screen and (max-width: 768px) {
+  .post-box {
+    width: 100% !important;
+  }
+
+  .search-friend-wrap {
+    flex: 1;
+  }
+
+  .search-friend-wrap input {
+    width: 100%;
+  }
+
+  .user-post-img img {
+    height: auto !important;
+  }
+}

@@ -1,0 +1,104 @@
+#logo {
+  padding: 0.5rem;
+  width: 100px;
+  height: 90px;
+
+}
+
+
+
+.lista-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+
+
+}
+
+.nav {
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  justify-content: space-between;
+  padding-bottom: 15px;
+
+}
+.menu-links {
+  text-align: center;
+}
+header {
+
+  width: 100%;
+  background-color:  #0f2027;
+  border-bottom:1px solid white;
+  margin-bottom: 2rem;
+
+
+}
+
+ul li {
+  list-style: none;
+  margin: 1rem;
+  display: inline;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  height: 10rem;
+}
+
+a:hover {
+  color: #6dc6c4;
+}
+
+.search {
+  flex: 1;
+  height: 2rem;
+  border-radius: 10px;
+  border: 0px solid;
+  margin: 0.8rem;
+  outline: none;
+  font-size: 20px;
+  padding: .5rem;
+}
+
+button {
+  height: 2rem;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  color: white;
+  border: 0px;
+  outline: none;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.fluid-container {
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+
+@media only screen and (min-width: 900px) {
+  .fluid-container {
+    width: 876px;
+  }
+}
